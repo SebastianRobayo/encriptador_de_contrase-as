@@ -6,8 +6,8 @@ global contrasena
 
 db = pymysql.connect(
     host="localhost",
-    user="sebastian",
-    passwd="sebas1033802619",
+    user="root",
+    passwd="1234",
     database="encriptacioncontrasenas"
 )
 
@@ -20,11 +20,8 @@ for row in capturaDato:
     contrasena = row[1]
 
 
-for idUsuario != 1:
 
-
-
-texto = "sebas1033802619"
+texto = "123456789"
 
 # Genera una clave en formato de secuencia de bytes
 key = Fernet.generate_key()
